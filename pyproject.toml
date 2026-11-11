@@ -1,0 +1,19 @@
+[project]
+name = "diabetic-retinopathy"
+version = "0.1.0"
+description = "Two-stage diabetic retinopathy model for the explainability assignment"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "tensorflow>=2.21",
+    "keras>=3.15",
+    "numpy>=2.0",
+    "pandas>=3.0",
+    "scikit-learn>=1.9",
+    "joblib>=1.6",
+    "matplotlib>=3.11",
+    "pillow>=13.0",
+    "jupyter>=1.1",
+]
+
+[tool.uv]
+package = false
