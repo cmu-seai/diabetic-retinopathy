@@ -58,7 +58,7 @@ The 367 patients in `data/test.csv` were used to train neither model.
 
 We strongly suggest you use the provided models, but you can also train your own or use different models.
 
-The vision model and the images are available in this [Google Drive folder](https://drive.google.com/drive/folders/1X_tTwEixtZdkVWrCae3LK7maP6m2wF4T?usp=drive_link). Place `model.h5` and the `images` folder in the root of this repository (or adjust the paths in the notebooks).
+The vision model and the images are available in this [Google Drive folder](https://drive.google.com/drive/folders/1X_tTwEixtZdkVWrCae3LK7maP6m2wF4T?usp=drive_link). Place `model.h5` and the `images` folder (in `data/images` on Drive) in the root of this repository, so that images are at `images/ID.png` (or adjust the paths in the notebooks).
 
 # Code
 
