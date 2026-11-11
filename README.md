@@ -76,7 +76,7 @@ print(prediction.probabilities)                    # final probabilities for gra
 print(prediction.cnn_probabilities)                # probabilities from the image alone
 ```
 
-The template notebook `template_code_for_explanation_and_html.ipynb` shows how to load the models, make a prediction for a patient, and fill an HTML template. This is the kind of code that would be integrated into the smartphone app, either locally or as a remotely deployed model inference service. You can use, extend, and modify the notebook, create your own, or work outside of notebooks -- whichever you prefer.
+The notebook `predict_patient.ipynb` shows how to load the models, look up a patient, and make a prediction. This is the kind of code that would be integrated into the smartphone app, either locally or as a remotely deployed model inference service. You can use, extend, and modify the notebook, create your own, or work outside of notebooks -- whichever you prefer.
 
 For reference, the repository also contains the notebooks that trained the models. *You do not need to run them*:
 
